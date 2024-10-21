@@ -2,26 +2,6 @@
 
 This is a Playwright project designed to automate the login process for the Glitch support website using GitHub authentication. It also includes validation steps for the post-login workflow, such as checking for a notification and completing the sign-up process.
 
-## Project Structure
-
-playwright-glitch-login/
-│
-├── node_modules/ # Node.js modules
-├── playwright-report/ # Playwright HTML test reports
-├── src/
-│ ├── pages/ # Page Object Model (POM) structure for storing page-specific selectors and methods
-│ │ └── loginPage.js # Login page selectors and interactions
-│ ├── tests/ # Test scripts
-│ │ └── loginTest.spec.js # Test file for GitHub login and sign-up process
-│ ├── utils/ # Helper functions or utilities
-│ │ └── actions.js # Authentication logic and other reusable methods
-├── test-results/ # Playwright test result data
-├── .env # Environment variables for storing credentials (GitHub username and password)
-├── package-lock.json # NPM package lock file
-├── package.json # NPM package file
-├── playwright.config.js # Playwright configuration file
-└── README.md # Project documentation (this file)
-
 ## Prerequisites
 
 Ensure you have the following installed on your machine:
@@ -33,7 +13,7 @@ Ensure you have the following installed on your machine:
 
 ### 1. Clone the Repository
 
-`git clone <your-repo-url>`
+`git clone https://github.com/mbogdanpop/playwright-glitch-login/`
 `cd playwright-glitch-login`
 
 ### 2. Install Dependencies
